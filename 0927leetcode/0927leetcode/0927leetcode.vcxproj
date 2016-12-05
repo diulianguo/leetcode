@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{01EA66F2-10A2-495C-AA28-A70E42821326}</ProjectGuid>
+    <RootNamespace>My0927leetcode</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="06.cpp" />
+    <ClCompile Include="100.cpp" />
+    <ClCompile Include="102.cpp" />
+    <ClCompile Include="103.cpp" />
+    <ClCompile Include="11.cpp" />
+    <ClCompile Include="110.cpp" />
+    <ClCompile Include="12.cpp" />
+    <ClCompile Include="131.cpp" />
+    <ClCompile Include="132.cpp" />
+    <ClCompile Include="134.cpp" />
+    <ClCompile Include="141.cpp" />
+    <ClCompile Include="151.cpp" />
+    <ClCompile Include="152.cpp" />
+    <ClCompile Include="153.cpp" />
+    <ClCompile Include="154.cpp" />
+    <ClCompile Include="165.cpp" />
+    <ClCompile Include="168.cpp" />
+    <ClCompile Include="17.cpp" />
+    <ClCompile Include="19.cpp" />
+    <ClCompile Include="191.cpp" />
+    <ClCompile Include="198213337.cpp" />
+    <ClCompile Include="200.cpp" />
+    <ClCompile Include="207.cpp" />
+    <ClCompile Include="210.cpp" />
+    <ClCompile Include="211.cpp" />
+    <ClCompile Include="212.cpp" />
+    <ClCompile Include="214.cpp" />
+    <ClCompile Include="215.cpp" />
+    <ClCompile Include="216.cpp" />
+    <ClCompile Include="222.cpp" />
+    <ClCompile Include="223.cpp" />
+    <ClCompile Include="225.cpp" />
+    <ClCompile Include="230.cpp" />
+    <ClCompile Include="232.cpp" />
+    <ClCompile Include="234.cpp" />
+    <ClCompile Include="235236.cpp" />
+    <ClCompile Include="240.cpp" />
+    <ClCompile Include="241.cpp" />
+    <ClCompile Include="27.cpp" />
+    <ClCompile Include="273.cpp" />
+    <ClCompile Include="28.cpp" />
+    <ClCompile Include="287.cpp" />
+    <ClCompile Include="3.cpp" />
+    <ClCompile Include="300.cpp" />
+    <ClCompile Include="303.cpp" />
+    <ClCompile Include="304.cpp" />
+    <ClCompile Include="307.cpp" />
+    <ClCompile Include="31.cpp" />
+    <ClCompile Include="310.cpp" />
+    <ClCompile Include="32.cpp" />
+    <ClCompile Include="321.cpp" />
+    <ClCompile Include="331.cpp" />
+    <ClCompile Include="334.cpp" />
+    <ClCompile Include="336.cpp" />
+    <ClCompile Include="34.cpp" />
+    <ClCompile Include="347.cpp" />
+    <ClCompile Include="375.cpp" />
+    <ClCompile Include="377.cpp" />
+    <ClCompile Include="387.cpp" />
+    <ClCompile Include="39.cpp" />
+    <ClCompile Include="221.cpp" />
+    <ClCompile Include="228.cpp" />
+    <ClCompile Include="318.cpp" />
+    <ClCompile Include="322.cpp" />
+    <ClCompile Include="324.cpp" />
+    <ClCompile Include="33.cpp" />
+    <ClCompile Include="352.cpp" />
+    <ClCompile Include="367.cpp" />
+    <ClCompile Include="38.cpp" />
+    <ClCompile Include="383.cpp" />
+    <ClCompile Include="390.cpp" />
+    <ClCompile Include="394.cpp" />
+    <ClCompile Include="4.cpp" />
+    <ClCompile Include="40.cpp" />
+    <ClCompile Include="401.cpp" />
+    <ClCompile Include="402.cpp" />
+    <ClCompile Include="409.cpp" />
+    <ClCompile Include="413446.cpp" />
+    <ClCompile Include="414.cpp" />
+    <ClCompile Include="415.cpp" />
+    <ClCompile Include="42.cpp" />
+    <ClCompile Include="423.cpp" />
+    <ClCompile Include="43.cpp" />
+    <ClCompile Include="441.cpp" />
+    <ClCompile Include="447.cpp" />
+    <ClCompile Include="453.cpp" />
+    <ClCompile Include="459.cpp" />
+    <ClCompile Include="46.cpp" />
+    <ClCompile Include="47.cpp" />
+    <ClCompile Include="5.cpp" />
+    <ClCompile Include="53.cpp" />
+    <ClCompile Include="54.cpp" />
+    <ClCompile Include="55.cpp" />
+    <ClCompile Include="59.cpp" />
+    <ClCompile Include="60.cpp" />
+    <ClCompile Include="62.cpp" />
+    <ClCompile Include="63.cpp" />
+    <ClCompile Include="64.cpp" />
+    <ClCompile Include="71.cpp" />
+    <ClCompile Include="74.cpp" />
+    <ClCompile Include="77.cpp" />
+    <ClCompile Include="78.cpp" />
+    <ClCompile Include="79.cpp" />
+    <ClCompile Include="81.cpp" />
+    <ClCompile Include="82.cpp" />
+    <ClCompile Include="84.cpp" />
+    <ClCompile Include="85.cpp" />
+    <ClCompile Include="89.cpp" />
+    <ClCompile Include="90.cpp" />
+    <ClCompile Include="92.cpp" />
+    <ClCompile Include="93.cpp" />
+    <ClCompile Include="96.cpp" />
+    <ClCompile Include="hulu.cpp" />
+    <ClCompile Include="indeed01.cpp" />
+    <ClCompile Include="indeed02.cpp" />
+    <ClCompile Include="indeed03.cpp" />
+    <ClCompile Include="indeed04.cpp" />
+    <ClCompile Include="indeed1010.cpp" />
+    <ClCompile Include="iqiyi01.cpp" />
+    <ClCompile Include="kuaishou.cpp" />
+    <ClCompile Include="leetcodeskype.cpp" />
+    <ClCompile Include="MS1.cpp" />
+    <ClCompile Include="MS2.cpp" />
+    <ClCompile Include="prim.cpp" />
+    <ClCompile Include="sogou.cpp" />
+    <ClCompile Include="WAPexam2.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
